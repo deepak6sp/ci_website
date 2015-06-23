@@ -1,0 +1,12 @@
+  .welcome-header{
+        margin-top:20px; 
+    }
+    .box{
+        margin-top:50px;
+        border:1px solid grey;
+        height:auto;  
+        border-radius:5px;             
+    }
+    .uname-header{
+        margin-top:15px;
+    }
