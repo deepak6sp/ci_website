@@ -12,7 +12,7 @@
                         </div>
                         <div class="row">
                             <div class="small-12 text-left columns">
-                                <input type="text" placeholder="username">
+                                <input type="text" value="" placeholder="username">
                             </div>
                         </div>
                          <div class="row">
@@ -22,7 +22,7 @@
                         </div>
                         <div class="row">
                             <div class="small-12 text-left columns">
-                                <input type="text" placeholder="password">
+                                <input type="password" value="" placeholder="password">
                             </div>
                         </div>
                          <div class="row">

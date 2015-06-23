@@ -21,15 +21,25 @@ class Login extends CI_Controller {
 	{
 		$this->login_system();
 	}
-	public function login_system()
+	public function login_page()
 	{
 		$this->load->view('include/header_view');
-		$this->load->view('include/main_view');
+		$this->load->view('include/login_view');
 		$this->load->view('include/footer_view');
 	}
-	public function echo_text(){
-		echo "i am here";
+	public function create_page()
+	{
+		$this->load->view('include/header_view');
+		$this->load->view('include/create_view');
+		$this->load->view('include/footer_view');
 	}
+	public function content_page()
+	{
+		$this->load->view('include/header_view');
+		$this->load->view('include/content_view');
+		$this->load->view('include/footer_view');
+	}
+
 }
 
 /* End of file welcome.php */
