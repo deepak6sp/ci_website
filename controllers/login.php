@@ -19,13 +19,13 @@ class Login extends CI_Controller {
 	 */
 	public function index()
 	{
-		$this->login_system();
+		$this->load->view('include/login_view');
 	}
 	public function login_page()
 	{
-		$this->load->view('include/header_view');
-		$this->load->view('include/login_view');
-		$this->load->view('include/footer_view');
+		
+		$this->load->model("user_details_model");
+		
 	}
 	public function create_page()
 	{
